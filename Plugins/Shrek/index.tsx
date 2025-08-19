@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "@webpack/common";
 import definePlugin from "@utils/types";
 import { ModalRoot, ModalSize, openModal } from "@utils/modal";
 import { findByPropsLazy } from "@webpack";
@@ -88,4 +88,3 @@ export default definePlugin({
     ));
   },
 });
-
